@@ -1,0 +1,63 @@
+.pxst-container select {
+    height: 38px;
+    font-size: 13px;
+  }
+  
+  .pxst-container input {
+    height: 38px;
+    font-size: 13px;
+  }
+  
+  .pxst-container textarea {
+    height: 38px;
+    font-size: 13px;
+    padding: 7px 5px;
+  }
+  
+  .pxst-container {
+    font-size: 12px;
+  }
+  
+  .content-moved-1 {
+    transition: margin-right 0.3s ease;
+  }
+  
+  .Add-text {
+    font-size: 13px;
+    font-weight: 500;
+  }
+  
+  .view-butt {
+    background-color: rgb(177, 53, 177);
+    border: 0;
+    font-size: 12px;
+    color: white;
+    border-radius: 3px;
+  }
+  
+  .button-container button {
+    background-color: rgb(177, 53, 177);
+    cursor: pointer;
+    border: 0;
+    color: white;
+    border-radius: 3px;
+  }
+  
+ 
+
+  
+  .button-container .cancelled1 {
+    background-color: rgb(231, 189, 19) !important;
+  }
+  
+  .pxst-container .ql-toolbar.ql-snow {
+    font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    background-color: #a9a6a6;
+  }
+  
+  .pxst-container .ql-container.ql-snow {
+    border: 1px solid #f3f2f2;
+    background-color: white;
+    height: 100px;
+  }
+  

@@ -1,0 +1,56 @@
+.sidey {
+  position: fixed;
+  height: 100%;
+  max-height: 100%;
+  width: 185px;
+  background-color: #333;
+  color: #fff;
+  overflow-x: hidden;
+  transition: width 0.3s ease;
+  padding: 10px;
+  z-index: 1;
+}
+
+.sidey.collapsed {
+  width: 70px;
+}
+
+.sidey .Imagma {
+  width: 100%;
+  height: 40px;
+  background-color: ghostwhite;
+  text-align: center;
+  line-height: 40px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.sidey .nav-item {
+  margin-bottom: 5px;
+}
+
+.sidey .nav-link {
+  text-decoration: none;
+  color: #d0c8c8;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  padding: 10px 15px;
+}
+
+.sidey .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.sidey .nav-link.active {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.sidey .icon {
+  margin-right: 15px;
+}
+
+.sidey.collapsed .icon {
+  margin-top: 10px;
+  margin-bottom: 0;
+}

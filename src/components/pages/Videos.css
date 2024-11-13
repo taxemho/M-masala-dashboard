@@ -1,0 +1,101 @@
+.videox-container {
+    font-weight: 500;
+    transition: margin-left 0.3s ease;
+    margin-top: 1vh;
+    font-size: 13px;
+  }
+  
+  .content-moved-4 {
+    transition: margin-right 0.3s ease;
+  }
+  
+  .add-button-videos {
+    font-size: 11px;
+    border-radius: 2px;
+  }
+  
+  .all-videos-container {
+    background-color: #eee;
+  }
+
+  
+  .pub-button-videos {
+    font-size: 11px;
+    background-color: rgb(177, 53, 177);
+    border-radius: 2px;
+    border: 0;
+    padding: 1px;
+    width: 70px;
+  }
+  
+  .export-buttons button {
+    width: 40px;
+    font-size: 11px;
+    border-radius: 2px;
+    background-color: rgb(80, 80, 227);
+    border: 0;
+    height: 20px;
+    padding: 1px;
+    position: relative;
+    top: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .export-buttons button {
+      width: 32%;
+      top: 0;
+    }
+  }
+  
+  .custom-select {
+    width: 250px;
+    max-width: 100%;
+    height: 35px;
+  }
+  
+  @media (max-width: 768px) {
+    .custom-select {
+      width: 100%;
+    }
+  }
+  
+  .custom-button {
+    width: 70px;
+    font-size: 12px;
+  }
+  
+  @media (max-width: 768px) {
+    .custom-button {
+      width: 100%;
+    }
+  }
+  
+  .publish-button {
+    width: 60px;
+    position: relative;
+    left: 20px;
+  }
+  
+  @media (max-width: 425px) {
+    .publish-button {
+      width: 100%;
+      left: 0;
+    }
+  }
+  
+  .search-container {
+    position: relative;
+    top: -35px;
+  }
+  
+  @media (max-width: 768px) {
+    .search-container {
+      top: 5px;
+      right: 30px;
+    }
+  }
+  
+  .inside-videos-container table {
+    font-size: 11px;
+  }
+  

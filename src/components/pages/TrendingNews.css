@@ -1,0 +1,20 @@
+.trending-news-container {
+    font-weight: 500;
+    transition: margin-left 0.3s ease;
+    margin-top: 1vh;
+    font-size: 13px;
+  }
+  
+  .content-moved-12 {
+    transition: margin-right 0.3s ease;
+  }
+  
+  .add-button-trending {
+    font-size: 11px;
+    border-radius: 2px;
+  }
+  
+  .inside-trending-news-container table {
+    font-size: 11px;
+  }
+  

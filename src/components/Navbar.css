@@ -1,0 +1,78 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #929395; 
+    padding: 10px 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    transition: padding-left 0.3s ease;
+  }
+  
+
+  .logo {
+    height: 40px; /* Adjust as needed */
+    width: auto;
+    transition: width 0.3s ease; /* Smooth transition for collapsed state */
+  }
+  
+  /* Collapsed Logo */
+
+  
+  /* Menu toggle button */
+  .menu-toggle-btn {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+
+  @media (max-width: 767px) {
+  
+
+  
+  }
+  
+  /* User dropdown */
+  .user-dropdown {
+    position: relative;
+  }
+  
+  .user-icon {
+    text-decoration: none;
+    color: #000; /* Adjust as needed */
+  }
+  
+  /* Dropdown menu */
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #fff; /* Adjust as needed */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adjust as needed */
+    padding: 10px;
+  }
+  
+  /* Show dropdown menu on hover */
+  .user-dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  /* Dropdown menu items */
+  .dropdown-menu a {
+    display: block;
+    padding: 5px 0;
+    text-decoration: none;
+    color: #000; /* Adjust as needed */
+  }
+  
+  /* Dropdown menu items on hover */
+  .dropdown-menu a:hover {
+    background-color: #f0f0f0; /* Adjust as needed */
+  }
+  

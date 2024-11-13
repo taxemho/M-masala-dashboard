@@ -1,0 +1,39 @@
+.visual-stories-container {
+    font-weight: 500;
+    transition: margin-left 0.3s ease;
+    margin-top: 1vh;
+    font-size: 13px;
+  }
+  
+  .content-moved-11 {
+    transition: margin-right 0.3s ease;
+  }
+  
+  .add-button-visual {
+      font-size: 11px;
+      border-radius: 2px;
+  }
+  
+  .visual-export-buttons button {
+    margin-right: 5px;
+  }
+  
+  .visual-search-bar {
+    margin-bottom: 10px;
+  }
+  
+  .inside-visual-stories-container table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .inside-visual-stories-container th,
+  .inside-visual-stories-container td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .inside-visual-stories-container th {
+    background-color: #f2f2f2;
+  }
+  
